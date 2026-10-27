@@ -14,7 +14,9 @@ html {
 }
 
 body {
-  width: 1200px;
+  width: 100%;
+  max-width: 1440px;
+  min-width: 320px;
   margin: 0 auto;
   background: #f7f8fc;
 }
@@ -37,11 +39,12 @@ a {
 }
 
 .encabezado {
-  height: 88px;
-  padding: 0 72px;
+  min-height: 5.5rem;
+  padding: 1rem clamp(1.25rem, 5vw, 4.5rem);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .marca {
