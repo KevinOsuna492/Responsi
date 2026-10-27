@@ -1,0 +1,3 @@
+trabajo semana 15 
+se creo el index y el css
+https://github.com/KevinOsuna492/Responsi.git
